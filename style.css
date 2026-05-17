@@ -4,21 +4,22 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(0, 0%, 95%);
 }
 
 #calculator{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 380px;
     overflow: hidden;
 }
 
 #display{
-    width: 100%;
-    padding: 20px;
+    width: 95%;
+    padding: 10px;
     font-size: 5rem;
-    text-align: left;
+    text-align: right;
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
@@ -31,8 +32,8 @@ body{
 }
 
 button{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 0%, 30%);
